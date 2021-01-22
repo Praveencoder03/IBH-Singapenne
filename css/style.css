@@ -21,3 +21,15 @@
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
+.html-thankyou{
+    background-color: #1a3c5a;
+}
+.landing-h2{
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: 300;
+    background-color: #1a3c5a;
+    padding-top: 15%;
+}
