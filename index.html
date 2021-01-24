@@ -323,7 +323,11 @@
     margin-top: 4%;
     margin-bottom: 4%;
 }
-
+.Registration-btn{
+	background-color: #0d5caa;
+	border: none;
+	text-align: center;
+}
 	</style>
 </head>
 
@@ -431,7 +435,7 @@
 
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 card-no-of">
-				<h2 class="h2 no-of">Registered aspirants so far : 1460</h2>
+				<h2 class="h2 no-of">Registered aspirants so far :  1461</h2>
 
 			</div>
 		</div>
@@ -504,18 +508,18 @@
 	</script>
 
 <script>
-    var i = localStorage.getItem('value');
+    var i = localStorage.getItem('1460');
     function buttonClick() {
         i++;
 		localStorage.setItem('value',i);
-		setTimeout(function(){ this.buttonClick(),this.getvalue() }, 10 * 60 * 1000);
+		// setTimeout(function(){ this.buttonClick(),this.getvalue() }, 10 * 60 * 1000);
 	}
 	function getvalue() {
           document.getElementById('inc').value = localStorage.getItem('value')
 	}
 	window.onload=getvalue;
 	
-	setTimeout(function(){ this.buttonClick(),this.getvalue() }, 10 * 60 * 1000);
+	// setTimeout(function(){ this.buttonClick(),this.getvalue() }, 10 * 60 * 1000);
 
 </script>
 
